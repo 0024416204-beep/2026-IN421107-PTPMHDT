@@ -1,0 +1,8 @@
+﻿using EduHub.Ch02.Domain;
+
+namespace EduHub.Ch02.Observers;
+
+public interface IEventObserver
+{
+    void OnEventCreated(Event ev, Club club, Member member);
+}
